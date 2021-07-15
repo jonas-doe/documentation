@@ -6,7 +6,7 @@ sidebar: false
 
 ## What can I deploy with Deploy Now?
 ![Deployment Options](/deploy-now-supported-frameworks.svg)  
-You can deploy any kind of website or app that work with HTML, CSS and client-side JavaScript. This includes popular frontend frameworks like Vue, React and Angular as well as static site generators like Gatsby, Hugo, Nuxt, Next, Jekyll, Jigsaw, Gridsome or Hexo, which follow the Jamstack approach.
+You can deploy any kind of website or app that work with HTML, CSS and client-side JavaScript. This includes popular frontend frameworks like Vue, React and Angular as well as static site generators like Gatsby, Hugo, Nuxt, Next, Jekyll, Jigsaw, Gridsome or Hexo, which follow the Jamstack approach. More information can be found [here](/guide/#supported-frameworks-and-technologies).
 ## What is the Jamstack?
 ![Jamstack vs. Classic Web Architecture](/jamstack-architecture.svg)  
 The Jamstack is a novel web architecture based on the principles of prerendering and decoupling. Jamstack stands for client-side **J**avaScript, reusable **A**PIs and **M**arkup. The basic concept is to deliver the markup of a site as fast as possible and use JavaScript and APIs to talk to various services at runtime, after the static frontend is delivered to the browser. In comparison to the classic web architecture the Jamstack is faster, as no database request has to be made at runtime, and more secure, as a static site offers less points for attacks.
@@ -31,6 +31,8 @@ Yes, you can migrate external domains to IONOS and connect them to Deploy Now. F
 You can only select repository to which you have granted the required read and write permissions.
 ## Can I deploy from Bitbucket or GitLab?
 Currently, we only support GitHub. We are constantly working on improving Deploy Now and would love to offer BitBucket and GitLab in the future.
+## Is server-side rendering supported?
+No, Deploy Now does not support server-side rendering.
 ## Where is my website hosted?
 Your website is hosted on our own datacenters. If you are a european customer, your website is served from a datacenter in Germany. If you are from Canada, Mexico, the US or another non-european country, your website is served from our datacenter in the US. 
 ## Which webserver technology is used?
