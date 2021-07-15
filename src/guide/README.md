@@ -29,7 +29,19 @@ infrastructure.
 
 A Deploy Now subscription allows you to deploy public or private projects from one GitHub account. This can be either a personal account or an organization owner. Deploy Now updates your website after every git commit using the [GitHub Actions](https://github.com/features/actions) pipeline. The pipeline updates are handled by the IONOS Deploy Now App that is installed to your deployment repositories. The App requires read access to actions and metadata as well as write access to administration, secrets, code and workflows. The information necessary for the usage of the pipeline are stored in a [configuration yaml](/advanced/#configuration) in your repository. Deploy Now does not limit the build minutes you can use to update your website. However, the number of minutes for private repositories depend on the GitHub plan you use.
 
+## Supported frameworks and technologies
+  
+![Screenshot from staging deployment section](/staging.jpg)
+  
+With staging deployments you can preview changes before they go live. If you think of your *main* branch as production, this is most likely the branch you select for your production deployment. droduction deployments can be connected to domains to serve content to visitors. When working on new features, you might not want unfinished code to go live on production. We suggest you to open feature branches for testing purposes and set them up as staging deployments. We equip staging deployments with preview URLs you can use to view changes by yourself or to share them with colleagues or customers. Once your happy with your changes, you can either merge them back to *main* or define the feature branch as the new production branch.
+
 ## Staging Deployments
+  
+![Screenshot from staging deployment section](/staging.jpg)
+  
+With staging deployments you can preview changes before they go live. If you think of your *main* branch as production, this is most likely the branch you select for your production deployment. droduction deployments can be connected to domains to serve content to visitors. When working on new features, you might not want unfinished code to go live on production. We suggest you to open feature branches for testing purposes and set them up as staging deployments. We equip staging deployments with preview URLs you can use to view changes by yourself or to share them with colleagues or customers. Once your happy with your changes, you can either merge them back to *main* or define the feature branch as the new production branch.
+
+## Domains & SSL
   
 ![Screenshot from staging deployment section](/staging.jpg)
   
