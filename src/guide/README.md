@@ -53,10 +53,10 @@ If you are working with static site generators, Deploy Now allows you to move st
 
 
 ### Single Page Applications
-You can deploy Single Page Applications based on frameworks like React, Vue and Angular via Deploy Now as well. 
+You can deploy Single Page Applications based on frameworks like React, Vue and Angular.
 
 ### Not supported
-Deploy Now does not support server-side rendering with Node.js, other interpreters than PHP and databases. If you are missing one of these or any other technology, you can let us know by requesting a feature via the product dashboard.
+Our hosting infastructure uses Apache webservers only. Thus, server-side rendering with Node.js is not supported. Besides, Deploy Now does not support databases. If you are missing one of these or any other technology, you can let us know by requesting a feature via the product dashboard.
 
 ## Staging Deployments
   
