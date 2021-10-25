@@ -41,13 +41,13 @@
       </div>
     </div>
 
-    <!--ClientOnly>
+    <ClientOnly>
       <div class="flex-center space-x-2 pt-12 md:pt-16">
         <button class="btn" @click="start">Start</button>
         <button class="btn" @click="stop">Stop</button>
         <button class="btn" @click="love">Show some love</button>
       </div>
-    </ClientOnly-->
+    </ClientOnly>
 
     <div class="flex justify-center items-center pb-8 pt-12 md:pt-16">
       <a
