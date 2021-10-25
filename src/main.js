@@ -1,5 +1,4 @@
 import Vuex from "vuex";
-import VueConfetti from "vue-confetti";
 import createStore from "~/store";
 import DefaultLayout from "~/layouts/Default.vue";
 import "prism-themes/themes/prism-material-oceanic.css";
@@ -14,7 +13,9 @@ export default function (Vue, { router, head, appOptions }) {
   Vue.use(Vuex);
   appOptions.store = createStore();
 
-  Vue.use(VueConfetti);
+  if (process.isClient) {
+		Vue.use(require("vue-confetti").default);
+	}
 
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
